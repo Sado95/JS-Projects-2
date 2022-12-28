@@ -1,0 +1,19 @@
+.star-container {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.fa-star {
+  color: lightgray;
+}
+
+.star-custom {
+  color: yellow;
+}
+
+.star-custom-2 {
+  color: yellow;
+}

@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* FIRST SCREEN BLOCK OF CODE */
+
+.container1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #507beb;
+  justify-content: center;
+  align-items: center;
+}
+
+.holder1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 100px;
+  align-items: center;
+}
+
+.firstLogo {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+}
+
+.logoBtn {
+  width: 40%;
+  color: #507beb;
+  background-color: white;
+  border: none;
+  height: 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/* SECOND SCREEN BLOCK OF CODE */
+
+.container2 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #507beb;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.holder2 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 100px;
+  align-items: center;
+}
+
+.secondLogo {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+}
+
+.insectList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 800px;
+  height: 250px;
+}
+
+.insect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 22%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+.insect:hover {
+  background-color: white;
+  color: #507beb;
+}
+
+.insect img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+/* THIRD SCREEN BLOCK OF CODE */
+
+.container3 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #507beb;
+  position: relative;
+}
+
+.time {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  margin-top: 1rem;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.score {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  margin-top: 1rem;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* UTILITY CLASSES */
+
+.active {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.dynamicBug {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.dynamicBug img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.accordion-title {
+  background-color: rgb(250, 245, 245);
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.accordion-body {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: justify;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 1rem;
+  display: none;
+}
+
+.show {
+  display: block;
+}

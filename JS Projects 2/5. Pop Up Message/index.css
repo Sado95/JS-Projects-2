@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  border: 1px solid black;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.message-container {
+  position: absolute;
+  left: 270px;
+  top: 100px;
+  background-color: aqua;
+  width: 700px;
+  height: 250px;
+  display: none;
+}
+
+.button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.message-text {
+  width: 300px;
+  margin: 7rem auto;
+  text-align: center;
+}

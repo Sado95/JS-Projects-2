@@ -1,0 +1,37 @@
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  background-color: gray;
+  padding: 0.5rem;
+}
+
+.screen {
+  height: 30px;
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.sign {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  background-color: rgb(164, 232, 224);
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.row-container:last-child {
+  margin-bottom: 1.5rem;
+}
